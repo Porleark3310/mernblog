@@ -1,0 +1,119 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+}
+
+.singlePostTitleInput{
+  display: flex;
+  margin: 10px;
+  font-size: 28px;
+  text-align: center;
+  color: gray;
+  border: none;
+  border-bottom: 2px solid lightgray;
+}
+
+.singlePostTitleInput:focus{
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  padding: .5rem;
+  border: 2px solid #20b2aa;
+  background: transparent;
+  color: #20b2aa;
+  transition: .2s ease-in;
+}
+
+.singlePostIcon:first-child:hover {
+  padding: .5rem;
+  background: #20b2aa;
+  color: #ffffff;
+}
+
+.singlePostIcon:last-child {
+  padding: .5rem;
+  border: 2px solid rgb(255, 71, 102);
+  background: transparent;
+  color: rgb(255, 71, 102);
+  transition: .2s ease-in;
+}
+
+.singlePostIcon:last-child:hover {
+  padding: .5rem;
+  background: rgb(255, 71, 102);;
+  color: rgb(255, 255, 255);
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #273c44;
+}
+
+.singlePostAuthor{
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.singlePostDesc {
+  text-indent: 2rem;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput{
+  color: gray;
+  font-size: 18px;
+  border: none;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus{
+  outline: none;
+}
+
+.singlePostButton{
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  height: 50px;
+  font-size: 1rem;
+  width: 100px;
+  color:white;
+  align-self: flex-end;
+  margin-top: 20px;
+  cursor: pointer;
+}

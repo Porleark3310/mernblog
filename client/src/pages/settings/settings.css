@@ -1,0 +1,154 @@
+.settings {
+  display: flex;
+  justify-content: center;
+  font-family: 'Gordita', sans-serif;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.settingsWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 1200px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsTitleUpdate {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.settingsTitleDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  color: red;
+  font-size: 12px;
+  border: 1px solid red;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.settingsTitleDelete:hover {
+  background-color: red;
+  color: white;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.settingsPP > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #161f3c;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.settingsPPIcon:hover{
+  transform: translateY(-5px);
+}
+
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsPPInput {
+  width: 30%;
+}
+
+.settingsForm > input {
+  padding: 4px;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.05);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 40px;
+  border: none;
+}
+
+.settingsSubmitButton {
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: rgb(62, 168, 255);
+  padding: 10px;
+  border: 2px solid rgb(62, 168, 255);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500; 
+  transition: .2s;
+  cursor: pointer;
+}
+.settingsSubmitButton:hover {
+  color: white;
+  background-color: rgb(62, 168, 255);
+  border: 2px solid rgb(62, 168, 255);
+  font-weight: 500;
+}
+
+.btnWrapper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px;
+  width: 250px;
+  height: 40px;
+  color: white;
+  background-color: rgb(99, 211, 89);
+  border-radius: 4px;
+  margin-top: 12px;
+  transition: .3s;
+}
